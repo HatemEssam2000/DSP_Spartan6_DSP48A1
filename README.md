@@ -2,6 +2,8 @@
 AMD Xilinx Spartan-6 DSP48A1 Slice Architecture
 
 This repository contains the RTL design, verification, and FPGA design flow implementation of a fully parameterized AMD Xilinx Spartan-6 DSP48A1 Slice in Verilog HDL. The architecture models multi-stage pipelined arithmetic functionality, including pre-adders/subtractors, an $18 \times 18$ multiplier, dynamic operation multiplexing, dynamic/static cascade routing, and post-adders/accumulators.
+----------------------------------------------------------------------------------------------------
+Repository Structure
 
 ├── rtl/                  # Parameterized Verilog HDL implementation of DSP48A1
 
@@ -15,7 +17,7 @@ This repository contains the RTL design, verification, and FPGA design flow impl
 
 └── README.md             # Project documentation
 
-
+----------------------------------------------------------------------------------------------------
 Tools & FlowRTL 
 Language: Verilog HDL  
 Simulation & Static Analysis: Siemens EDA QuestaSim & QuestaLint (Zero linting errors rule)  
